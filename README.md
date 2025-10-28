@@ -1,2 +1,0 @@
-# blinxyprivacy
-blinxyprivacy
