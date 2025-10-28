@@ -1,133 +1,176 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Blinxy – Gizlilik Politikası / Privacy Policy</title>
+  <title>Blinxy | Gizlilik Politikası • Privacy Policy</title>
   <style>
-    body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:#222}
-    header{padding:24px 16px;background:#0b5cff;color:#fff}
-    main{max-width:900px;margin:0 auto;padding:24px 16px}
-    h1,h2{margin:0 0 8px}
-    h2{margin-top:24px}
-    .lang{display:flex;gap:8px;margin-top:8px}
-    .chip{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);padding:6px 10px;border-radius:999px;color:#fff;text-decoration:none}
-    .card{background:#fff;border:1px solid #eee;border-radius:12px;padding:16px;margin:16px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
-    footer{padding:24px 16px;background:#fafafa;border-top:1px solid #eee;color:#666}
-    a{color:#0b5cff}
-    ul{margin:8px 0 8px 20px}
-    .muted{color:#666}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.55;margin:0;background:#0b0c10;color:#e8e9ed}
+    main{max-width:980px;margin:0 auto;padding:28px}
+    a{color:#7cc7ff;text-decoration:none} a:hover{text-decoration:underline}
+    h1,h2{margin:0.6em 0 0.3em} h1{font-size:1.9rem} h2{font-size:1.35rem}
+    .muted{opacity:.8} .card{background:#12141a;border:1px solid #1f2430;border-radius:12px;padding:18px;margin:18px 0}
+    code,pre{background:#11141a;border:1px solid #1f2430;padding:.2em .4em;border-radius:6px}
+    .lang{display:flex;gap:10px;margin:12px 0}
+    .pill{padding:6px 10px;border:1px solid #2a2f3a;border-radius:999px}
+    .grid{display:grid;gap:10px;grid-template-columns:1fr 1fr}
+    @media (max-width:720px){.grid{grid-template-columns:1fr}}
+    ul{margin:0.4em 0 0.8em 1.2em}
   </style>
 </head>
 <body>
-<header>
-  <h1>Blinxy</h1>
-  <div class="lang">
-    <a class="chip" href="#tr">Türkçe</a>
-    <a class="chip" href="#en">English</a>
-  </div>
-</header>
 <main>
+  <header>
+    <h1>Blinxy – Gizlilik Politikası • Privacy Policy</h1>
+    <p class="muted">Son güncelleme / Last updated: <strong>29 Oct 2025</strong></p>
+    <div class="lang">
+      <span class="pill">TR</span>
+      <span class="pill">EN</span>
+    </div>
+  </header>
 
-  <!-- Turkish -->
-  <section id="tr" class="card">
-    <h2>Gizlilik Politikası (TR)</h2>
-    <p><strong>Yürürlük tarihi:</strong> 28 Ekim 2025</p>
-    <p>Blinxy (“Uygulama”), mimik tabanlı kaydırma deneyimi sunmak için cihazınızın bazı yeteneklerini kullanır. Bu sayfa,
-       hangi verileri nasıl işlediğimizi ve haklarınızı açıklar.</p>
+  <!-- ======================= TR SECTION ======================= -->
+  <section id="tr" lang="tr" class="card">
+    <h2>1) Hakkımızda</h2>
+    <p><strong>Blinxy</strong> (“Uygulama”) <strong>Launchix</strong> tarafından geliştirilmiştir. Bu politika,
+      uygulamanın hangi verileri nasıl kullandığını açıklar. Sorularınız için: 
+      <a href="mailto:launchixtr@gmail.com">launchixtr@gmail.com</a></p>
 
-    <h3>Topladığımız / İşlediğimiz Veriler</h3>
+    <h2>2) Topladığımız/Kullandığımız Veriler</h2>
     <ul>
-      <li><strong>Kamera:</strong> Göz kırpma/göz açıklığı gibi jestleri algılamak için kamera görüntüsü <em>yalnızca cihazda</em> gerçek zamanlı işlenir.
-          Yüz görselleri veya biyometrik veriler <strong>cihaz dışına gönderilmez, kaydedilmez</strong>.</li>
-      <li><strong>Erişilebilirlik Hizmeti:</strong> Uygulamaların içinde otomatik kaydırma yapmak için AccessibilityService kullanılır.
-          Bu hizmet yalnızca kaydırma/etkileşim komutlarını üretmek amacıyla çalışır; kişisel içeriğinizi toplamayız.</li>
-      <li><strong>Ekran üstü izin (Overlay):</strong> Küçük bir gösterge simgesi için kullanılır; içerik kaydı yapılmaz.</li>
-      <li><strong>Reklamlar (AdMob):</strong> Ödüllü reklamlar sunar. Google AdMob; reklam kimliği gibi cihaz düzeyi tanımlayıcıları,
-          IP, yaklaşık konum vb. <em>kendi politikalarına göre</em> işleyebilir. Bkz.
-          <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Reklamcılık İlkeleri</a>.</li>
-      <li><strong>Satın Almalar:</strong> Google Play Faturalandırma ile uygulama içi satın alma yapılır. Ödeme bilgileri Google tarafından yönetilir;
-          sunucularımızda ödeme verisi tutmayız.</li>
+      <li><strong>Kamera</strong> (izinli): Göz kırpma/açıklık olasılığı gibi <em>anlık</em> sinyaller cihaz üzerinde işlenir. 
+        <u>Görüntüler kaydedilmez, sunucuya gönderilmez.</u></li>
+      <li><strong>Erişilebilirlik Hizmeti</strong> (izinli): Kaydırma jestlerini tetiklemek için 
+        yalnızca <em>ön plandaki uygulamanın paket adını</em> algılarız. 
+        <u>Metin, parola, mesaj veya içerik okumayız/kaydetmeyiz.</u></li>
+      <li><strong>Overlay/Çizim üstüne</strong> (izinli): Ekranda küçük durum göstergesi sunmak için kullanılır; 
+        veri toplamaz.</li>
+      <li><strong>Satın Alma</strong> (Google Play Billing): İşlemler Google tarafından yürütülür. 
+        Tarafımıza bir satın alma belirteci (token) gelebilir; bu yalnızca 
+        satın alınan modülü etkinleştirmek için <em>cihaz içinde</em> kullanılır.</li>
+      <li><strong>Reklamlar (AdMob)</strong>: Ücretsiz kullanım/ödüllü reklam göstermek için 
+        Google AdMob SDK’sı çalışır. Reklam kişiselleştirme ve cihaz tanımlayıcıları gibi bilgiler 
+        Google tarafından işlenebilir. Ayrıntılar için Google’ın politikalarına bakınız.</li>
     </ul>
 
-    <h3>Veri Paylaşımı</h3>
-    <p>Blinxy, sunucu tarafında kişisel veri toplamaz. Üçüncü taraf olarak yalnızca
-       <strong>Google Mobile Ads SDK (AdMob)</strong> ve <strong>Google Play Billing</strong> kullanılır.</p>
+    <h2>3) İzinler</h2>
+    <div class="grid">
+      <div class="card">
+        <strong>Camera</strong> (<code>android.permission.CAMERA</code>)<br/>
+        Göz/mimik analizi için; görüntüler cihazdan çıkmaz.
+      </div>
+      <div class="card">
+        <strong>Overlay</strong> (<code>SYSTEM_ALERT_WINDOW</code>)<br/>
+        Ekran üstü durum göstergesi; veri toplamaz.
+      </div>
+      <div class="card">
+        <strong>Erişilebilirlik</strong> (<code>BIND_ACCESSIBILITY_SERVICE</code>)<br/>
+        Kaydırma jestini tetiklemek için; içerik okumaz, yalnızca paket adı.
+      </div>
+      <div class="card">
+        <strong>İnternet</strong> (<code>INTERNET</code>)<br/>
+        Reklam ve faturalandırma SDK’ları için ağ erişimi.
+      </div>
+      <div class="card">
+        <strong>Faturalandırma</strong> (<code>com.android.vending.BILLING</code>)<br/>
+        Uygulama içi satın alma.
+      </div>
+    </div>
 
-    <h3>Çocukların Gizliliği</h3>
-    <p>Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır.</p>
+    <h2>4) Veri Paylaşımı</h2>
+    <p><strong>Launchix</strong> olarak kişisel verilerinizi satmayız ve üçüncü taraflarla
+      pazarlama amacıyla paylaşmayız. Reklamlar (AdMob) ve Google Play Faturalandırma 
+      kendi hizmet şartları kapsamında bazı cihaz/olay verilerini işleyebilir.</p>
 
-    <h3>Güvenlik ve Saklama</h3>
-    <p>Sunucu tarafı kişisel veri saklamıyoruz. Kameradan işlenen sinyaller yalnızca cihaz üzerinde anlık olarak kullanılır.</p>
+    <h2>5) Çocukların Gizliliği</h2>
+    <p>Uygulama 13 yaş altına yönelik değildir.</p>
 
-    <h3>Haklarınız</h3>
+    <h2>6) Saklama</h2>
+    <p>Görüntüler ve mimik verileri kaydedilmez. Satın alma durumları yalnızca cihazınızda 
+      yerel ayarlarda saklanır.</p>
+
+    <h2>7) Haklarınız & İletişim</h2>
+    <p>Gizlilik talebi, kişiselleştirilmiş reklam tercihi, veri erişim/silme için bize 
+      <a href="mailto:launchixtr@gmail.com">launchixtr@gmail.com</a> adresinden ulaşın.</p>
+
+    <h2>8) Üçüncü Taraf Bağlantılar</h2>
     <ul>
-      <li>Kamerayı sistem izinlerinden kapatabilirsiniz.</li>
-      <li>Reklam kişiselleştirme tercihleriniz için Android ayarlarını ve Google’ın reklam ayarlarını kullanabilirsiniz.</li>
-      <li>Uygulama içindeki “Gizlilik Politikası” bağlantısından bu sayfaya her zaman ulaşabilirsiniz.</li>
+      <li>Google Gizlilik: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+      <li>AdMob: <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob Privacy</a></li>
+      <li>Reklam kişiselleştirme: <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a></li>
     </ul>
 
-    <h3>İletişim</h3>
-    <p>Her türlü soru için: <a href="mailto:launchixtr@gmail.com">launchixtr@gmail.com</a></p>
+    <h2>9) Değişiklikler</h2>
+    <p>Bu politika zaman zaman güncellenebilir. “Son güncelleme” tarihi sayfanın üstünde yer alır.</p>
 
-    <h3>Değişiklikler</h3>
-    <p>Bu politika zaman zaman güncellenebilir. Önemli değişikliklerde uygulama içi bilgilendirme yaparız.</p>
-
-    <p class="muted">Kullanılan izinler: <code>CAMERA</code>, <code>SYSTEM_ALERT_WINDOW</code> (overlay),
-      <code>BIND_ACCESSIBILITY_SERVICE</code>, <code>INTERNET</code>, <code>com.android.vending.BILLING</code>.</p>
+    <h2>10) Şirket & İletişim</h2>
+    <p><strong>Launchix</strong><br/>
+       E-posta: <a href="mailto:launchixtr@gmail.com">launchixtr@gmail.com</a></p>
   </section>
 
-  <!-- English -->
-  <section id="en" class="card">
-    <h2>Privacy Policy (EN)</h2>
-    <p><strong>Effective date:</strong> October 28, 2025</p>
-    <p>Blinxy (“the App”) provides gesture-based scrolling and uses certain device capabilities. This page explains what data
-       we process and your choices.</p>
+  <!-- ======================= EN SECTION ======================= -->
+  <section id="en" lang="en" class="card">
+    <h2>1) About</h2>
+    <p><strong>Blinxy</strong> (the “App”) is developed by <strong>Launchix</strong>. 
+      This Policy explains what data the App uses and why. Contact: 
+      <a href="mailto:launchixtr@gmail.com">launchixtr@gmail.com</a>.</p>
 
-    <h3>Data We Process</h3>
+    <h2>2) Data We Access/Process</h2>
     <ul>
-      <li><strong>Camera:</strong> Frames are processed <em>on-device only</em> to detect blinks/eye openness. Face images or
-          biometric data are <strong>not transmitted or stored</strong> off the device.</li>
-      <li><strong>Accessibility Service:</strong> Used to perform automatic scrolling within other apps. It’s limited to generating
-          scroll/interact actions; we do not collect your personal content.</li>
-      <li><strong>Overlay:</strong> Used to show a small indicator; no content logging.</li>
-      <li><strong>Ads (AdMob):</strong> We show rewarded ads. Google AdMob may process device identifiers, IP, approximate location, etc.
-          under its own policies. See
-          <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising Policies</a>.</li>
-      <li><strong>Purchases:</strong> In-app purchases via Google Play Billing. Payment data is handled by Google; we don’t store payment info.</li>
+      <li><strong>Camera</strong> (with consent): Eye openness/blink signals are processed 
+        <em>on-device</em>. <u>No images are stored or sent to servers.</u></li>
+      <li><strong>Accessibility Service</strong> (with consent): Used to trigger scroll gestures. 
+        We only detect the <em>foreground app’s package name</em>. 
+        <u>We do not read text, passwords or message content.</u></li>
+      <li><strong>Overlay</strong>: To show a tiny on-screen indicator; collects no data.</li>
+      <li><strong>Billing</strong> (Google Play Billing): Purchases are handled by Google. 
+        We may receive a purchase token that is used locally to enable modules.</li>
+      <li><strong>Ads (AdMob)</strong>: For rewarded/free usage. AdMob may process device 
+        identifiers and ad events per Google policies.</li>
     </ul>
 
-    <h3>Sharing</h3>
-    <p>No server-side personal data collection. Third-party SDKs used: <strong>Google Mobile Ads (AdMob)</strong> and
-       <strong>Google Play Billing</strong> only.</p>
+    <h2>3) Permissions</h2>
+    <div class="grid">
+      <div class="card"><strong>Camera</strong> (<code>android.permission.CAMERA</code>) – on-device analysis only.</div>
+      <div class="card"><strong>Overlay</strong> (<code>SYSTEM_ALERT_WINDOW</code>) – status indicator; no data collection.</div>
+      <div class="card"><strong>Accessibility</strong> (<code>BIND_ACCESSIBILITY_SERVICE</code>) – triggers scroll; no content read.</div>
+      <div class="card"><strong>Internet</strong> (<code>INTERNET</code>) – for ads/billing SDKs.</div>
+      <div class="card"><strong>Billing</strong> (<code>com.android.vending.BILLING</code>) – in-app purchases.</div>
+    </div>
 
-    <h3>Children</h3>
-    <p>The App is intended for users aged 13+.</p>
+    <h2>4) Sharing</h2>
+    <p>We do not sell personal data. AdMob and Google Play Billing may process certain device or event
+      information under their own terms.</p>
 
-    <h3>Security & Retention</h3>
-    <p>No server-side storage of personal data. Camera signals are processed in real time on your device.</p>
+    <h2>5) Children’s Privacy</h2>
+    <p>Not directed to children under 13.</p>
 
-    <h3>Your Choices</h3>
+    <h2>6) Retention</h2>
+    <p>No image data is stored. Purchase status is kept locally on your device.</p>
+
+    <h2>7) Your Rights & Contact</h2>
+    <p>For privacy requests, ad personalization, access/erasure, contact 
+      <a href="mailto:launchixtr@gmail.com">launchixtr@gmail.com</a>.</p>
+
+    <h2>8) Third-Party Links</h2>
     <ul>
-      <li>You can revoke the Camera permission in system settings.</li>
-      <li>Manage ad personalization via Android settings and Google Ads settings.</li>
-      <li>An in-app “Privacy Policy” link points to this page.</li>
+      <li>Google Privacy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+      <li>AdMob: <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob Privacy</a></li>
+      <li>Ad personalization: <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a></li>
     </ul>
 
-    <h3>Contact</h3>
-    <p>Questions: <a href="mailto:launchixtr@gmail.com">launchixtr@gmail.com</a></p>
+    <h2>9) Changes</h2>
+    <p>We may update this Policy. See the “Last updated” date above.</p>
 
-    <h3>Changes</h3>
-    <p>We may update this policy. We’ll notify you in-app for material changes.</p>
-
-    <p class="muted">Permissions used: <code>CAMERA</code>, <code>SYSTEM_ALERT_WINDOW</code>,
-      <code>BIND_ACCESSIBILITY_SERVICE</code>, <code>INTERNET</code>, <code>com.android.vending.BILLING</code>.</p>
+    <h2>10) Company & Contact</h2>
+    <p><strong>Launchix</strong><br/>
+       Email: <a href="mailto:launchixtr@gmail.com">launchixtr@gmail.com</a></p>
   </section>
 
+  <footer class="muted">
+    <p>© <span id="y"></span> Launchix — Blinxy</p>
+  </footer>
 </main>
-<footer>
-  <p>&copy; <span id="y"></span> Launchix. All rights reserved.</p>
-</footer>
 <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
